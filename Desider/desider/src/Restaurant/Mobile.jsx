@@ -33,7 +33,7 @@ class Mobile extends Component {
             GoogleAPI: 'https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=' 
                         + await this.props.location.latitude + ',' 
                         + await this.props.location.longitude 
-                        +'&radius=1500&type=restaurant&key=AIzaSyDXwEL_zxvt-nIvezTRD9QKiDDOtn7nCg8',
+                        +'&radius=1500&type=restaurant&key=<Your Key Here>',
 
         });
 
