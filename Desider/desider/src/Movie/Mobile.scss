@@ -1,0 +1,170 @@
+@import '../App/App';
+
+.body-div {
+
+    border-style: none !important;
+
+}
+
+.movie-render-mb {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100% !important;
+
+    .btn-div {
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        padding: 12px;
+        margin: 12px;
+
+        .get-movie-btn {
+
+            border-style: none;
+            padding: 25px;
+            margin: 12px;
+            background-color: $desider-blue;
+            color: white;
+            font-weight: 600;
+            letter-spacing: 2px;
+
+            &:hover {
+
+                background-color: $desider-orange;
+
+            }
+        
+        }
+
+    }
+
+    .render-dom {
+
+        width: 100%;
+
+        .render-div {
+
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 12px;
+            padding: 12px;
+            
+            .title {
+
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+                margin: 12px;
+                padding: 12px;
+                width: 100%;
+            
+            }
+
+            .poster-div {
+
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+                margin: 12px;
+                padding: 12px;
+                width: 100%;
+
+                .poster-img {
+
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    margin: 12px;
+                    width: 75%;
+                    // box-shadow: $desider-box-shadow;
+                    border-radius: 25px;
+                    border-style: solid;
+
+                }
+
+            }
+
+            .desc-div {
+
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+                margin: 12px;
+                padding: 12px;
+                width: 100%;
+
+                .title {
+
+                    width: 100%;
+
+                }
+
+                .desc {
+
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    margin: 12px;
+                    padding: 12px;
+                    text-align: center;
+                    
+                }
+
+            }
+
+            .details-div {
+
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+                margin: 12px;
+                padding: 12px;
+                width: 100%;
+
+                .rating-div {
+
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    margin: 12px;
+                    padding: 12px;
+                    width: 100%;
+                    text-align: center;
+
+                    .rating-title {
+
+                        width: 100%;
+                        font-size: 20px;
+
+                    }
+
+                    .rating-details {
+
+                        width: 100%;
+
+                    }
+
+                }
+
+            }
+            
+        }
+
+    }
+
+}

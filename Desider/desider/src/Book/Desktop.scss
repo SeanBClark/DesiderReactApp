@@ -1,0 +1,273 @@
+@import '../App/App';
+
+.book-render {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100% !important;
+
+    .btn-div {
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        padding: 12px;
+        margin: 12px;
+
+        .get-book-btn {
+
+            border-style: none;
+            padding: 25px;
+            margin: 12px;
+            background-color: $desider-blue;
+            color: white;
+            font-weight: 600;
+            letter-spacing: 2px;
+            font-size: 16px;
+
+            &:hover {
+
+                background-color: $desider-orange;
+
+            }
+
+        }
+
+    }
+
+    .render-dom {
+
+        width: 100%;
+
+        .render-div {
+
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 12px;
+            padding: 12px;
+            // box-shadow: $desider-box-shadow;
+            border-style: solid;
+            border-width: 5px;
+            border-color: $desider-green;
+            border-radius: 12px;
+            
+            .title {
+
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+                margin: 12px;
+                padding: 12px;
+                width: 100%;
+            
+            }
+
+            .publisher-div {
+
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+                margin: 12px;
+                padding: 12px;
+                width: 100%;
+
+                .publisher-title {
+
+                    font-weight: 600;
+                    width: 100%;
+                    text-align: center;
+                    
+                }
+
+            }
+
+            // Div Containing list of authors
+            .author-list-div {
+
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+                margin: 12px;
+                padding: 12px;
+                width: 100%;
+
+                .author-title {
+
+                    font-weight: 600;
+                    width: 100%;
+                    text-align: center;
+
+                }
+
+                .author-ul {
+
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    padding: 12px;
+                    width: 100%;
+                    list-style: none;                    
+
+                    .author-li {
+
+
+
+                    }
+
+                }
+
+            }
+
+            // Div containing book cover
+            div .cover-div {
+
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+                margin: 12px;
+                padding: 12px;
+                width: 100%;
+
+                .cover-img {
+
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    margin: 12px;
+                    width: 50%;
+                    // box-shadow: $desider-box-shadow;
+                    border-radius: 25px;
+                    border-style: solid;
+
+                }
+
+            }
+
+            // Div containing book description
+            .desc-div {
+
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+                margin: 12px;
+                padding: 12px;
+                width: 100%;
+
+                .title {
+
+                    width: 100%;
+
+                }
+
+                .desc {
+
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    margin: 12px;
+                    padding: 12px;
+                    width: 75%;
+                    
+                }
+
+            }
+
+            //Div containing details about book and links to buy it
+            .details-div {
+
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+                margin: 12px;
+                padding: 12px;
+                width: 100%;
+
+                .rating-div {
+
+                    text-align: center;
+                    font-size: 20px;
+                    width: 100%;
+
+                    .rating-title {
+
+                        width: 100%;
+
+                    }
+
+                }
+
+                .prev-buy-div {
+
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    margin: 12px;
+                    padding: 12px;
+                    width: 100%;
+
+                    .prev-buy-title {
+
+                        width: 100%;
+
+                    }
+
+                    .prev-btn {
+
+                        margin: 12px;
+                        padding: 12px;
+                        background-color: $desider-green;
+                        color: #fff;
+                        padding-left: 50px;
+                        padding-right: 50px;
+
+                        &:hover {
+
+                            background-color: $desider-orange;
+
+                        }
+
+                    }
+
+                    .buy-btn {
+
+                        margin: 12px;
+                        padding: 12px;
+                        background-color: $desider-blue;
+                        color: #fff;
+                        padding-left: 50px;
+                        padding-right: 50px;
+
+                        &:hover {
+
+                            background-color: $desider-orange;
+
+                        }
+
+                    }
+
+                }
+
+            }
+
+        }
+
+    }
+
+}
+

@@ -1,0 +1,118 @@
+@import '../App/App';
+
+.options-div {
+
+    .title {
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        font-size: 22px !important;
+        font-weight: 600;
+        letter-spacing: 2px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    
+    }
+
+    .choice-div {
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 12px;
+
+        &:link {
+
+            text-decoration: none !important;
+
+        }
+
+        .option-link {    
+    
+            &:link {
+    
+                text-decoration: none !important;
+
+            }
+
+            &:active {
+
+                text-decoration: none !important;
+
+            }
+
+            &:visited {
+
+                text-decoration: none !important;
+            
+            }
+
+            &:hover {
+
+                text-decoration: none !important;
+                background-color: $desider-blue;
+            
+            }
+
+            .option {
+
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+                width: 125px;
+                background-color: $desider-green;
+                color: white;
+                font-weight: 600;
+                text-decoration: none;
+                padding: 30px;
+                border-style: solid;
+                letter-spacing: 2px;
+    
+    
+                &:link {
+    
+                    text-decoration: none !important;
+    
+                }
+    
+                &:active {
+    
+                    text-decoration: none !important;
+    
+                }
+    
+                &:visited {
+    
+                    text-decoration: none !important;
+                
+                }
+    
+                &:hover {
+    
+                    text-decoration: none !important;
+                    background-color: $desider-blue;
+                
+                }
+                
+            }
+
+        }
+
+        
+
+    }
+
+    .switch-div {
+
+        .choice-div {
+
+        }
+
+    }
+    
+}

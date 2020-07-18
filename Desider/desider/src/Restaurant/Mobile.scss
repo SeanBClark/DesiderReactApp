@@ -1,0 +1,211 @@
+@import '../App/App';
+
+.restaurant-div {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+
+    .choice-btn-div {
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        color: white;
+        margin: 12px;
+        padding: 12px;
+        margin-top: 50px;
+
+        .find-rest-btn {
+
+            background-color: $desider-green;
+            padding: 20px;
+            border-style: none;
+            color: white;
+            font-weight: 600;
+            letter-spacing: 2px;
+            margin: 12px;
+            margin-right: 40px;
+
+            &:hover {
+
+                background-color: $desider-yellow;
+
+            }
+
+        }
+
+        .filter-rest-btn {
+
+            background-color: $desider-blue;
+            padding: 10px;
+            border-style: none;
+            color: white;
+            font-weight: 600;
+            letter-spacing: 2px;
+            margin: 12px;
+
+            &:hover {
+
+                background-color: $desider-yellow;
+
+            }
+
+        }
+
+    }
+
+    .render-div-mb {
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        max-width: 100% !important;
+        // margin: 12px;
+        // padding: 12px;
+        // margin-right: 12px;
+
+        .rest-div {
+
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            // margin: 12px;
+            // padding: 12px;
+            // margin-right: 35px;
+            max-width: 100% !important;
+
+            .title {                
+
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+                width: 100%
+
+            }
+
+            .extra-info {                
+
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+                width: 100%;
+                padding: 12px;
+                text-align: center;
+                
+            }
+
+            .photo-div {                                
+
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+                // box-shadow: $desider-box-shadow;
+                margin: 12px;
+                border-radius: 12px;
+                width: 85%;
+
+                .photo {
+
+                    border-radius: 12px;
+                    width: 100%;
+
+                }
+
+            }
+
+            .details {
+
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                width: 100%;
+
+                .detail-title {
+
+                    margin: 12px;
+                    padding: 12px;
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    width: 100%;
+
+                }
+
+                .type-map {
+
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    list-style: none;
+                    width: 95%;
+
+                    .type-ul {
+
+                        display: flex;
+                        flex-direction: column;
+                        flex-wrap: wrap;
+                        justify-content: center;
+                        list-style: none;
+                        width: 100%;
+
+                        .type-li {
+
+                            text-transform: capitalize;
+                            padding: 2px;
+                            margin: 2px;
+                            background-color: #870058ff;
+                            color: #fff;
+                            text-align: center;
+
+                        }
+
+                    }
+
+                }
+
+            }
+
+            .map-title {
+
+                margin: 12px;
+                padding: 12px;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+                width: 100%;            
+
+            }
+
+            .map-div {
+
+                // display: flex;
+                // flex-direction: row;
+                // flex-wrap: wrap;
+                // justify-content: flex-start;
+                // width: 100%;
+                // // margin: 12px;
+                // height: 100%;
+                // box-shadow: 0px 0px 2px 2px lightgray !important;
+                margin-right: auto;
+
+            }
+
+        }
+
+    }
+
+}

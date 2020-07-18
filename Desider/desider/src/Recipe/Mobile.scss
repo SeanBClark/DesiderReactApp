@@ -1,0 +1,525 @@
+@import '../App/App';
+
+.recipe-render-mobile {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100% !important;
+
+    .btn-div {
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        padding: 12px;
+        margin: 12px;
+
+        .get-recipe-btn {
+
+            border-style: none;
+            padding: 25px;
+            margin: 12px;
+            background-color: $desider-blue;
+            color: white;
+            font-weight: 600;
+            letter-spacing: 2px;
+
+        }
+
+    }
+
+    .render-dom {
+
+        width: 100%;
+
+        .render-div {
+
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 12px;
+            padding: 12px;
+            // box-shadow: $desider-box-shadow;
+            border-style: solid;
+            border-width: 5px;
+            border-color: $desider-green;
+            border-radius: 12px;
+
+            .title {                
+
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+                width: 100%;
+                margin: 12px;
+                padding: 12px;
+
+            }
+
+            .source-link {                
+
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+                width: 100%;
+                margin: 12px;
+                padding: 12px;
+                margin-top: -35px;
+
+                a {
+
+                    .source-btn {
+
+                        color: #fff;
+                        padding: 0px;
+                        background-color: $desider-blue;
+                        border-style: none;
+                        border-radius: 12px;
+                        padding-left: 24px;
+                        padding-right: 24px;
+
+                        .source-name {
+
+                            text-transform: capitalize;
+                            margin-left: 2px;
+
+                        }
+
+                    }
+
+                    &:hover {text-decoration: none !important;}
+                    &:link {text-decoration: none !important;}
+                    &:active {text-decoration: none !important;}
+                    &:visited {text-decoration: none !important;}
+    
+                }
+
+            }
+
+            .spoonacular-link {                
+
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+                width: 100%;
+                margin: 12px;
+
+                .spoon-a {
+
+                    .spoonacular-btn {                
+
+                        display: flex;
+                        flex-direction: row;
+                        flex-wrap: wrap;
+                        justify-content: center;
+                        background-color: #fff;
+                        border-style: none;
+                        color: black;
+
+                        &:hover {
+
+                            background: $desider-orange;
+
+                        }
+
+                    }
+
+                    &:hover {text-decoration: none !important;}
+                    &:link {text-decoration: none !important;}
+                    &:active {text-decoration: none !important;}
+                    &:visited {text-decoration: none !important;}
+
+                }
+
+            }
+
+            .image-div {                
+
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+                width: 100%;
+                border-radius: 12px;
+
+                .recipe-img {                
+
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    border-radius: 12px;
+                    max-width: 90%;
+
+                }
+
+            }
+
+            .desc-div {                
+
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+                width: 100%;
+                text-align: center;
+
+                .desc-title {                
+
+                    display: inherit;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    width: inherit;
+                    margin: 12px;
+                    padding: 12px;
+                
+                }
+
+                .summary-p {                
+
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    width: 90%;
+
+                }
+
+            }
+
+            .details-div {                
+
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+                width: 100%;
+                padding: 12px;
+
+                .details-title {                
+
+                    display: inherit;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    width: inherit;
+                    margin: 12px;
+                    padding: 12px;
+
+                }
+
+                .details-ul {                
+
+                    display: flex;
+                    flex-direction: column;
+                    flex-wrap: wrap;
+                    justify-content: center;
+
+                    .details-li {
+                        
+                        display: flex;
+                        flex-direction: row;
+                        flex-wrap: wrap;
+                        justify-content: center;
+                        padding: 6px;
+
+                    }
+
+                }
+
+            }
+
+            .ing-div {                
+
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+                width: 100%;
+                margin: 12px;
+                padding: 12px;
+
+                .ing-ul {                
+
+                    display: flex;
+                    flex-direction: column;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    width: 100%;
+                    margin: 12px;
+                    padding: 12px;
+                    list-style: circle;
+
+                    .ing-li {
+                        
+                        display: flex;
+                        flex-direction: row;
+                        flex-wrap: wrap;
+                        justify-content: center;
+                        margin: 6px;
+                        font-size: 16px;
+                        text-align: center;
+                        align-content: center;
+
+                        .ing-name {
+
+                            width: 100%;
+                            
+                        }
+
+                    }
+
+                }
+
+            }
+
+            .instruction-div {                
+
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+                width: 100%;
+
+                .title {}
+
+                .basic-div {
+
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    justify-content: center;
+
+                    .basic-instructions {
+
+                        display: flex;
+                        flex-direction: row;
+                        flex-wrap: wrap;
+                        justify-content: center;
+                        width: 100%;
+                        text-align: center;
+                        padding: 12px;
+    
+                    }
+
+                    .detail-inst-btn {
+
+                        align-content: center;
+                        margin: 12px;
+                        padding: 12px;
+                        border-style: none;
+                        background: $desider-blue;
+                        color: white;
+
+                        &:hover {
+
+                            background: $desider-orange;
+
+                        }
+
+                    }
+
+                }
+
+                .detailed-div {                
+
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    width: 100%;
+
+                    .simple-inst-btn {
+
+                        align-content: center;
+                        margin: 12px;
+                        padding: 12px;
+                        border-style: none;
+                        background: $desider-blue;
+                        color: white;
+
+                        &:hover {
+
+                            background: $desider-orange;
+
+                        }
+
+                    }
+
+                    .step-ul {
+
+                        display: flex;
+                        flex-direction: row;
+                        flex-wrap: wrap;
+                        justify-content: center;
+                        width: 100%;
+                        margin: 12px;
+                        padding: 12px;
+
+                        .step-li {
+
+                            display: flex;
+                            flex-direction: row;
+                            flex-wrap: wrap;
+                            justify-content: center;
+                            width: 100%;
+                            margin: 12px;
+                            padding: 12px;
+
+                            .step-num {
+
+                                display: flex;
+                                flex-direction: row;
+                                flex-wrap: wrap;
+                                justify-content: center;
+                                width: 100%;
+                                margin: 12px;
+                                padding: 12px;
+                                font-weight: 600;
+                            
+                            }
+
+                            .step-desc {
+
+                                display: flex;
+                                flex-direction: row;
+                                flex-wrap: wrap;
+                                justify-content: center;
+                                width: 100%;
+                                padding: 12px;
+                                margin: 12px;
+                            
+                            }
+
+                            .equipment-div {
+
+                                display: flex;
+                                flex-direction: row;
+                                flex-wrap: wrap;
+                                justify-content: center;
+                                width: 50%;
+
+                                .equipment-title {
+
+                                    display: flex;
+                                    flex-direction: row;
+                                    flex-wrap: wrap;
+                                    justify-content: center;
+                                    width: 100%;
+                                    text-align: center;
+                                    margin: 12px;
+                                    font-weight: 600;
+
+                                }
+
+                                .equipment-ul {
+
+                                    display: flex;
+                                    flex-direction: row;
+                                    flex-wrap: wrap;
+                                    justify-content: center;
+                                    width: 100%;
+                                    align-content: center;
+                                    padding: 1px;
+
+                                    .equipment-li {
+
+                                        display: flex;
+                                        flex-direction: row;
+                                        flex-wrap: wrap;
+                                        justify-content: center;
+                                        text-transform: capitalize;
+                                        margin-top: 12px;
+                                        margin: 6px;
+                                        text-align: center;
+                                        width: 100%;
+
+                                        .equipment-name {
+
+
+
+                                        }
+
+                                    }
+
+                                }
+
+                            }
+
+                            .ing-map-div {
+
+                                display: flex;
+                                flex-direction: row;
+                                flex-wrap: wrap;
+                                justify-content: center;
+                                width: 50%;
+
+                                .ing-map-title {
+
+                                    display: flex;
+                                    flex-direction: row;
+                                    flex-wrap: wrap;
+                                    justify-content: center;
+                                    width: 100%;
+                                    text-align: center;
+                                    margin: 12px;
+                                    font-weight: 600;
+
+                                }
+
+                                .ing-map-ul {
+
+                                    display: flex;
+                                    flex-direction: row;
+                                    flex-wrap: wrap;
+                                    justify-content: center;
+                                    width: 100%;
+                                    align-content: center;
+                                    padding: 1px;
+
+                                    .ing-map-li {
+
+                                        display: flex;
+                                        flex-direction: row;
+                                        flex-wrap: wrap;
+                                        justify-content: center;
+                                        text-transform: capitalize;
+                                        margin-top: 12px;
+                                        margin: 6px;
+                                        text-align: center;
+                                        width: 100%;
+
+                                        .ing-map-name {
+
+
+
+                                        }
+
+                                    }
+
+                                }
+
+                            }
+
+                        }
+
+                    }
+
+                }
+
+            }
+
+        }
+
+    }
+
+}

@@ -1,0 +1,144 @@
+@import '../App/App';
+
+.desider-icon-div {
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    padding: 12px;
+
+    img {
+
+        height: 100px;
+        width: 300px;
+
+    }
+
+}
+
+.nav-options-div {
+        
+    display: none;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    color: white;
+    margin-left: auto;
+    background-color: $desider-green;
+
+    .nav-btn {
+    
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 12px;
+        background-color: $desider-green;
+        width: 100%;
+        align-items: center;
+        letter-spacing: 2px;
+
+    }
+
+    .home-btn-div {        
+
+        justify-content: center;
+        width: 100%;
+
+    }
+
+    .contact-btn-div {
+
+        justify-content: center;
+        width: 100%;
+
+    }
+
+    .login-btn-div-mb {
+
+        border-top-style: solid;
+        border-bottom-style: solid;
+        width: 100%;
+
+    }
+
+}
+
+// .nav-bar-div {
+
+//     display: flex;
+//     flex-direction: row;
+//     flex-wrap: nowrap;
+//     // justify-content: center;
+//     width: 100%;
+//     font-weight: 600;
+//     border-bottom-color: $desider-green;
+//     border-bottom-width: 10px;
+//     border-bottom-style: solid;
+
+//     .desider-icon-div {
+        
+//         display: flex;
+//         flex-direction: row;
+//         flex-wrap: nowrap;
+//         justify-content: flex-start;
+//         margin-left: 40px;
+//         padding: 12px;
+
+//         img {
+
+//             height: 100px;
+//             width: 300px;
+
+//         }
+
+//     }
+
+    // .nav-options-div {
+        
+    //     display: flex;
+    //     flex-direction: row;
+    //     flex-wrap: nowrap;
+    //     justify-content: flex-end;
+    //     align-items: center;
+    //     color: white;
+    //     margin-left: auto;
+
+    //     .nav-btn {
+        
+    //         display: flex;
+    //         flex-direction: row;
+    //         flex-wrap: nowrap;
+    //         padding: 20px;
+    //         background-color: $desider-green;
+    //         height: 100%;
+    //         align-items: center;
+    //         letter-spacing: 2px;
+
+    //     }
+
+    //     .home-btn-div {
+
+
+
+    //     }
+
+    //     .contact-btn-div {
+
+
+
+    //     }
+
+    //     .login-btn-div {
+
+
+
+    //     }
+
+    // }
+
+
+// }

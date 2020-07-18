@@ -1,0 +1,104 @@
+@import '../App/App';
+
+    .options-div-mb {
+
+        .title {
+    
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            width: 100%;
+            font-size: 16px !important;
+            font-weight: 400;
+            letter-spacing: 2px;
+            // margin-top: 25px;
+            // margin-bottom: 25px;
+            text-align: center;
+        
+        }
+
+        .other-options {
+
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            background-color: $desider-blue;
+            color: white;
+            font-weight: 600;
+            text-decoration: none;
+            padding: 12px;
+            border-style: solid;
+            font-size: 16px;
+
+        }
+    
+        .choice-div {
+    
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 12px;
+    
+            &:link {
+    
+                text-decoration: none !important;
+    
+            }
+    
+            .option {
+    
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+                width: 125px;
+                background-color: $desider-green;
+                color: white;
+                font-weight: 600;
+                text-decoration: none;
+                padding: 12px;
+                border-style: solid;
+                font-size: 16px;
+    
+    
+                &:link {
+    
+                    text-decoration: none !important;
+    
+                }
+    
+                &:active {
+    
+                    text-decoration: none !important;
+    
+                }
+    
+                &:visited {
+    
+                    text-decoration: none !important;
+                
+                }
+    
+                &:hover {
+    
+                    text-decoration: none !important;
+                    background-color: $desider-blue;
+                
+                }
+                
+            }
+    
+        }
+    
+        .switch-div {
+    
+            .choice-div {
+    
+            }
+    
+        }
+        
+    }

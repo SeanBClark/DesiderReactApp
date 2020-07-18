@@ -1,0 +1,79 @@
+@import '../App/App';
+
+.nav-bar-div {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    // justify-content: center;
+    width: 100%;
+    font-weight: 600;
+    border-bottom-color: $desider-green;
+    border-bottom-width: 10px;
+    border-bottom-style: solid;
+    background: linear-gradient(135deg, #fff 0%, #fff 66%, $desider-green 66%);
+
+    .desider-icon-div {
+        
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        // margin-left: 40px;
+        padding: 24px;
+
+        img {
+
+            height: 100px;
+            width: 300px;
+
+        }
+
+    }
+
+    .nav-options-div {
+        
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-end;
+        align-items: center;
+        color: white;
+        margin-left: auto;
+
+        .nav-btn {
+        
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            padding: 20px;
+            background-color: $desider-green;
+            height: 100%;
+            align-items: center;
+            letter-spacing: 2px;
+
+        }
+
+        .home-btn-div {
+
+
+
+        }
+
+        .contact-btn-div {
+
+
+
+        }
+
+        .login-btn-div {
+
+            border-bottom-style: none !important;
+            border-top-style: none !important;
+
+        }
+
+    }
+
+
+}

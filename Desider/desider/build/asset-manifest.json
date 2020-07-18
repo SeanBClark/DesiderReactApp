@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ef919a2c.chunk.css",
+    "main.js": "/static/js/main.b25db7ee.chunk.js",
+    "main.js.map": "/static/js/main.b25db7ee.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.b09a35e5.js",
+    "runtime-main.js.map": "/static/js/runtime-main.b09a35e5.js.map",
+    "static/css/2.f87e9f44.chunk.css": "/static/css/2.f87e9f44.chunk.css",
+    "static/js/2.5c6cd353.chunk.js": "/static/js/2.5c6cd353.chunk.js",
+    "static/js/2.5c6cd353.chunk.js.map": "/static/js/2.5c6cd353.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.854f8f8980163e47cb96a67cd8952875.js": "/precache-manifest.854f8f8980163e47cb96a67cd8952875.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.f87e9f44.chunk.css.map": "/static/css/2.f87e9f44.chunk.css.map",
+    "static/css/main.ef919a2c.chunk.css.map": "/static/css/main.ef919a2c.chunk.css.map",
+    "static/js/2.5c6cd353.chunk.js.LICENSE.txt": "/static/js/2.5c6cd353.chunk.js.LICENSE.txt",
+    "static/media/Desider_Icon.svg": "/static/media/Desider_Icon.a7bc7193.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b09a35e5.js",
+    "static/css/2.f87e9f44.chunk.css",
+    "static/js/2.5c6cd353.chunk.js",
+    "static/css/main.ef919a2c.chunk.css",
+    "static/js/main.b25db7ee.chunk.js"
+  ]
+}

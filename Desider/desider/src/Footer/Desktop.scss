@@ -1,0 +1,44 @@
+@import '../App/App';
+
+.footer-render {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+
+    .title {
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        margin: 12px;
+
+    }
+
+    .the-movie-db {
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+
+        .this-movie-db-img {
+
+
+
+        }
+
+        .Spoontacular {
+
+            background-color: $desider-green;
+
+        }
+
+    }
+
+}
